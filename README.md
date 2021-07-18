@@ -16,6 +16,7 @@
 - python-bidi
 - arabic-reshaper
 - tensorboard
+- streamlit
 
 
 ### Installation
@@ -39,16 +40,21 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 - `*.yml` files are example configuration files for training/evaluation our models.
 
 ### Evaluating
-
 **Dwonload Pretrained Model**
 - [ADF-GAN for CUB-200](https://drive.google.com/file/d/14qv3kM-g0Hd1ZcfGlNyEnKAUUZhKr67u/view?usp=sharing). Download and save it to `models/CUB-200/`
 
 **Evaluate ADF-GAN models:**
-
 - To evaluate our ADF-GAN on CUB-200, change B_VALIDATION to True in the bird.yml. and then run `python main.py --cfg cfg/bird.yml`
 - We compute inception score for models trained on CUB-200 using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
 - We compute FID for CUB-200 using [DM-GAN/eval/FID](https://github.com/MinfengZhu/DM-GAN/tree/master/eval/FID). 
 
+---
+### Run our Demo
+<img src="model.PNG" width="900px" height="448px"/>
+
+```
+streamlit GUI.py
+```
 ---
 **Reference**
 - [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) [[code]](https://github.com/hanzhanggit/StackGAN-v2)
