@@ -34,7 +34,7 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 ---
 ### Training
 **Train ADF-GAN models:**
-  - For bird dataset: `python main.py --cfg cfg/bird.yml`
+  - For CUB-200 dataset: `python main.py --cfg cfg/bird.yml`
 
 - `*.yml` files are example configuration files for training/evaluation our models.
 
