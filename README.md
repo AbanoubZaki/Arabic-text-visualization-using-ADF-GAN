@@ -50,7 +50,7 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 
 ---
 ### Run our Demo
-<img src="demo.PNG" width="500px" height="600px"/>
+<img src="demo.PNG" width="600px" height="650px"/>
 
 ```
 streamlit GUI.py
