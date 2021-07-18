@@ -26,8 +26,7 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 ```
 
 ### Datasets Preparation
-1. Download the preprocessed metadata for [CUB-200](https://drive.google.com/drive/folders/137IXPY0rpRAh9rCsQTKQesrZ4lvvn5mx?usp=sharing)
-2. Download the [CUB-200](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) image data. Extract them to `data/CUB-200/`
+1. Download the Arabic dataset for [CUB-200](https://drive.google.com/drive/folders/137IXPY0rpRAh9rCsQTKQesrZ4lvvn5mx?usp=sharing)
 
 ### Pre-trained text encoder
 1. Download the [pre-trained text encoder](https://drive.google.com/file/d/17M9Xn5Nhk7DfMHY1_movO4MAw60UsvU1/view?usp=sharing) for CUB-200 and save it to `DAMSMencoders/CUB-200`
