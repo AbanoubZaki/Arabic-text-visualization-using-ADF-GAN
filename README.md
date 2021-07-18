@@ -1,7 +1,5 @@
 # ADF-GAN: Arabic Deep Fusion Generative Adversarial Networks for Text-to-Image Synthesis
 
-(A novel and effective one-stage Text-to-Image Backbone)
-
 <img src="model.PNG" width="900px" height="448px"/>
 
 ---
