@@ -1,4 +1,4 @@
-# ADF-GAN: Arabic Deep Fusion Generative Adversarial Networks for Text-to-Image Synthesis
+# ADF-GAN: Arabic Deep Fusion Generative Adversarial Networks for Text-to-Image Generation
 
 <img src="model.PNG" width="900px" height="448px"/>
 
@@ -57,5 +57,3 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 - [DM-GAN: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1904.01310) [[code]](https://github.com/MinfengZhu/DM-GAN)
 - [DF-GAN: Deep Fusion Generative Adversarial Networks for Text-to-Image Synthesis](https://arxiv.org/abs/2008.05865) [[code]](https://github.com/tobran/DF-GAN/tree/master/code)
 - [AraBERT: Transformer-based Model for Arabic Language Understanding](https://arxiv.org/abs/2003.00104) [[code]](https://github.com/aub-mind/arabert)
-
-{"mode":"full","isActive":false}
