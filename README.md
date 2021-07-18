@@ -8,12 +8,19 @@
 ### Requirements
 - python 3.6+
 - Pytorch 1.0+
+- tensorflow-gpu  >= 1.11.0, <2.0 # GPU version of TensorFlow.
 - easydict
 - nltk
 - scikit-image
-- A titan xp (set nf=32 in *.yaml) or a V100 32GB (set nf=64 in *.yaml)
-### Installation
+- transformers
+- PyArabic
+- farasapy
+- python-bidi
+- arabic-reshaper
+- tensorboard
 
+
+### Installation
 Clone this repo.
 ```
 git clone https://github.com/BeboZaki/Arabic-text-visualization-using-ADF-GAN.git
@@ -29,8 +36,7 @@ cd Arabic-text-visualization-using-ADF-GAN/code/
 
 ---
 ### Training
-
-**Train DF-GAN models:**
+**Train ADF-GAN models:**
   - For bird dataset: `python main.py --cfg cfg/bird.yml`
 
 - `*.yml` files are example configuration files for training/evaluation our models.
