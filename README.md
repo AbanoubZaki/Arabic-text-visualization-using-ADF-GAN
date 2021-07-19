@@ -1,6 +1,6 @@
 # ADF-GAN: Arabic Deep Fusion Generative Adversarial Networks for Text-to-Image Generation
 
-<img src="model.PNG" width="900px" height="448px"/>
+
 
 ---
 ### Requirements
